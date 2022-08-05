@@ -42,11 +42,13 @@ a {
 
 .box {
     width: 1000px;
-    height: 250px;
+    height: 400px;
     display: flex;
     background-color: rgba(0,0,0,0.7);
     padding: 42px;
     justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 25px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.1);
 }
@@ -56,31 +58,87 @@ a {
 }
 
 .image {
-    width: 340px;
+    width: 420px;
     height: auto;
+    border-radius: 15px;
 }
 
 .two {
+    background-color: rgb(50, 48, 48);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 48px;
+    gap: 32px;
 }
 
 .two .text {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
+    color: white;
 }
 
 .cards {
     display: flex;
-    gap: 32px;
+    gap: 64px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    color: white;
+    gap: 20px;
+    font-size: 18px;
 }
 
 .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 4px solid rgb(232, 231, 231);
+}
+
+.three {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("images/nighthawks.png");
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    color: white;
+
+}
+
+.four {
+    background-color: rgb(50, 48, 48);
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four .container {
+    display: flex;
+    gap: 72px;
+    padding: 30px 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.sign-up {
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 2px 30px;
+}
+
+.four .container .text {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 800;
+    color: black;   
 }
